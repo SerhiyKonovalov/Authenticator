@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240504144918">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240504234749">
 
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico" />
 	<link rel="icon" sizes="any" type="image/svg+xml" href="img/favicon/favicon.svg">
@@ -47,8 +47,7 @@
 		<header data-scroll class="header">
 			<div class="header__container">
 				<a href="index.html" class="header__logo">
-					<img src="" alt="">
-					LOGO
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
 				</a>
 				<div class="header__menu menu">
 					<button type="button" class="menu__icon icon-menu" aria-label="Opening a burger menu"><span></span></button>
@@ -67,13 +66,13 @@
 								<meta itemprop="position" content="3" />
 							</li>
 							<li class="menu__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-								<a href="help.html" class="menu__link" itemprop="item"><span itemprop="name">Help</span></a>
+								<a href="faq.html" class="menu__link" itemprop="item"><span itemprop="name">FAQ</span></a>
 								<meta itemprop="position" content="4" />
 							</li>
 						</ul>
 					</nav>
 				</div>
-				<a href="download.html" class="header__download button button--red">Download</a>
+				<a href="download.html" class="header__download button button--blue">Download</a>
 			</div>
 		</header>
 		<main class="page">
@@ -142,7 +141,16 @@
 					</div>
 				</div>
 			</section>
-			<section class="redirect">
+			<section class="get-started">
+				<div class="get-started__container">
+					<h2 class="get-started__title title">Get started now for free!</h2>
+					<div class="get-started__text text">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates consectetur facilis sunt, repellat quae sit perspiciatis? Temporibus quis sit dolores nostrum </p>
+					</div>
+					<a href="#" class="get-started__link button button--blue">Download</a>
+				</div>
+			</section>
+			<!-- <section class="redirect">
 				<div class="redirect__container">
 					<ul class="redirect__list">
 						<li class="redirect__item">
@@ -160,7 +168,7 @@
 							</a>
 						</li>
 						<li class="redirect__item">
-							<a href="help.html" class="redirect__link">
+							<a href="faq.html" class="redirect__link">
 								<img src="img/secure/icons/check-mark.svg" class="redirect__icon" alt="icon-1">
 								<h4 class="redirect__title">Help</h4>
 								<p class="redirect__text text">Need help? We'd love to hear from you.</p>
@@ -168,20 +176,67 @@
 						</li>
 					</ul>
 				</div>
+			</section> -->
+			<section class="info">
+				<div class="info__container">
+					<div class="info__head">
+						<h2 class="info__title title">Lorem ipsum dolor</h2>
+						<div class="info__text text">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque dolores expedita optio temporibus rem in quod sit sequi repudiandae recusandae unde delectus excepturi facilis odio maxime, molestias eius corporis labore facere! Voluptatibus voluptatum quod quae iure suscipit distinctio temporibus mollitia fuga ipsum animi cumque beatae nulla, quasi doloremque vitae, atque nostrum odio saepe consequatur</p>
+						</div>
+					</div>
+					<div data-tabs class="info__tabs tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title _tab-active" title="Read about">Заголовок 1 таба</button>
+							<button type="button" class="tabs__title" title="Read about">Заголовок 2 таба</button>
+							<button type="button" class="tabs__title" title="Read about">Заголовок 3 таба</button>
+							<button type="button" class="tabs__title" title="Read about">Заголовок 4 таба</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body body-tabs">
+								<img src="img/advantages/icons/01.svg" alt="Tab icon" class="body-tabs__icon">
+								<h3 class="body-tabs__title">Заголовок 1 таба</h3>
+								<div class="body-tabs__text text">
+									<p>Вміст 1 таба Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolores natus, optio repudiandae laudantium aperiam hic quidem dignissimos doloribus dolorem eum laboriosam reiciendis odit. Rerum eum harum numquam expedita saepe.</p>
+								</div>
+							</div>
+							<div class="tabs__body body-tabs">
+								<img src="img/advantages/icons/02.svg" alt="Tab icon" class="body-tabs__icon">
+								<h3 class="body-tabs__title">Заголовок 2 таба</h3>
+								<div class="body-tabs__text text">
+									<p>Вміст 2 таба Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam doloMagnam dolores natus, optio repudiandae laudantium aperiam hic quidem dignissimos doloribus dolorem eum laboriosam reiciendis odit. Rerum eum harum numquam expedita saepe.</p>
+								</div>
+							</div>
+							<div class="tabs__body body-tabs">
+								<img src="img/advantages/icons/03.svg" alt="Tab icon" class="body-tabs__icon">
+								<h3 class="body-tabs__title">Заголовок 3 таба</h3>
+								<div class="body-tabs__text text">
+									<p>Вміст 3 таба Lorem ipsum dolor sit amet, consectetur adipisdoloribus dolorem eum laboriosam reiciendis odit. Rerum eum harum numquam expedita saepe.</p>
+								</div>
+							</div>
+							<div class="tabs__body body-tabs">
+								<img src="img/advantages/icons/03.svg" alt="Tab icon" class="body-tabs__icon">
+								<h3 class="body-tabs__title">Заголовок 4 таба</h3>
+								<div class="body-tabs__text text">
+									<p>Вміст 4 таба Lorem ipsum dolor sit Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum doloram</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 				<a href="index.html" class="footer__logo">
-					<img src="" alt="">
-					LOGO
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
 				</a>
 				<nav class="footer__nav">
 					<ul class="footer__list">
 						<li class="footer__item"><a href="overview.html">Overview</a></li>
 						<li class="footer__item"><a href="setup.html">Setup</a></li>
 						<li class="footer__item"><a href="secure.html">Secure</a></li>
-						<li class="footer__item"><a href="help.html">Help</a></li>
+						<li class="footer__item"><a href="faq.html">Help</a></li>
 						<li class="footer__item"><a href="download.html">Download</a></li>
 					</ul>
 				</nav>
@@ -189,7 +244,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240504144918"></script>
+	<script src="js/app.min.js?_v=20240504234749"></script>
 </body>
 
 </html>
