@@ -724,7 +724,7 @@ textarea.input {
 }
 
 .no-webp .hero{
-  background: url("https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-home.jpg") 50%/cover no-repeat; }
+  background: url("../img/hero/hero-home.jpg") 50%/cover no-repeat; }
 
 .hero {
   min-height: 100vh;
@@ -1082,7 +1082,7 @@ textarea.input {
 }
 
 .why {
-  background: #cedae7;
+  background: #fff;
 }
 
 .why__container {
@@ -1090,12 +1090,8 @@ textarea.input {
   text-align: center;
 }
 
-.why__title {
-  color: #fff;
-}
-
 .why__title span {
-  color: #3498db;
+  color: #29347a;
 }
 
 .why__text {
@@ -1257,7 +1253,7 @@ textarea.input {
 }
 
 .no-webp .hero-setup{
-  background: url("https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-features-setup.jpg") 50%/cover no-repeat; }
+  background: url("../img/hero/hero-setup.jpg") 50%/cover no-repeat; }
 
 .hero-setup {
   display: -webkit-box;
@@ -1267,16 +1263,6 @@ textarea.input {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-}
-
-.hero-setup::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero-setup__container {
@@ -1431,7 +1417,7 @@ textarea.input {
 }
 
 .no-webp .hero-secure{
-  background: url("https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-features-secure.jpg") 50%/cover no-repeat; }
+  background: url("../img/hero/hero-secure.jpg") 50%/cover no-repeat; }
 
 .hero-secure {
   display: -webkit-box;
@@ -1440,17 +1426,6 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-}
-
-.hero-secure::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero-secure__container {
@@ -1533,7 +1508,7 @@ textarea.input {
 }
 
 .no-webp .hero-faq{
-  background: url("https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-features-secure.jpg") 50%/cover no-repeat; }
+  background: url("../img/hero/hero-faq.jpg") 50%/cover no-repeat; }
 
 .hero-faq {
   display: -webkit-box;
@@ -1543,16 +1518,6 @@ textarea.input {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-}
-
-.hero-faq::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero-faq__container {
@@ -1665,7 +1630,7 @@ textarea.input {
   position: relative;
   overflow: hidden;
   border-radius: 1.25rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   padding: 0 0.9375rem;
   text-align: center;
 }
@@ -2217,7 +2182,7 @@ textarea.input {
   }
 
   .hero-setup {
-    min-height: 31.25rem;
+    min-height: 37.5rem;
   }
 
   .setup {
@@ -2319,7 +2284,7 @@ textarea.input {
   }
 
   .hero-secure {
-    min-height: 31.25rem;
+    min-height: 37.5rem;
   }
 
   .secure {
@@ -2368,7 +2333,7 @@ textarea.input {
   }
 
   .hero-faq {
-    min-height: 31.25rem;
+    min-height: 37.5rem;
   }
 
   .faq {
@@ -2935,7 +2900,7 @@ textarea.input {
   }
 
   .hero-setup {
-    min-height: 21.875rem;
+    min-height: 25rem;
   }
 
   .setup {
@@ -3041,7 +3006,7 @@ textarea.input {
   }
 
   .hero-secure {
-    min-height: 21.875rem;
+    min-height: 25rem;
   }
 
   .secure {
@@ -3094,7 +3059,7 @@ textarea.input {
   }
 
   .hero-faq {
-    min-height: 21.875rem;
+    min-height: 25rem;
   }
 
   .faq {
@@ -4531,15 +4496,15 @@ textarea.input {
     }
 }
 
-@supports (min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem )) {
+@supports (min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem )) {
     .hero-setup {
-      min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem );
+      min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem );
     }
 }
 
-@supports not (min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem )) {
+@supports not (min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem )) {
     .hero-setup {
-      min-height: calc(21.875rem + 9.375 * (100vw - 20rem) / 55);
+      min-height: calc(25rem + 12.5 * (100vw - 20rem) / 55);
     }
 }
 
@@ -4835,15 +4800,15 @@ textarea.input {
     }
 }
 
-@supports (min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem )) {
+@supports (min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem )) {
     .hero-secure {
-      min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem );
+      min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem );
     }
 }
 
-@supports not (min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem )) {
+@supports not (min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem )) {
     .hero-secure {
-      min-height: calc(21.875rem + 9.375 * (100vw - 20rem) / 55);
+      min-height: calc(25rem + 12.5 * (100vw - 20rem) / 55);
     }
 }
 
@@ -4981,15 +4946,15 @@ textarea.input {
     }
 }
 
-@supports (min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem )) {
+@supports (min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem )) {
     .hero-faq {
-      min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem );
+      min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem );
     }
 }
 
-@supports not (min-height: clamp( 21.875rem , 18.4659090909rem  +  17.0454545455vw , 31.25rem )) {
+@supports not (min-height: clamp( 25rem , 20.4545454545rem  +  22.7272727273vw , 37.5rem )) {
     .hero-faq {
-      min-height: calc(21.875rem + 9.375 * (100vw - 20rem) / 55);
+      min-height: calc(25rem + 12.5 * (100vw - 20rem) / 55);
     }
 }
 
@@ -5810,12 +5775,12 @@ textarea.input {
   }
 }
 
-.webp .hero{ background: url(https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-home.webp) 50%/cover no-repeat; }
+.webp .hero{ background: url(../img/hero/hero-home.webp) 50%/cover no-repeat; }
 
-.webp .hero-setup{ background: url(https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-features-setup.webp) 50%/cover no-repeat; }
+.webp .hero-setup{ background: url(../img/hero/hero-setup.webp) 50%/cover no-repeat; }
 
-.webp .hero-secure{ background: url(https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-features-secure.webp) 50%/cover no-repeat; }
+.webp .hero-secure{ background: url(../img/hero/hero-secure.webp) 50%/cover no-repeat; }
 
-.webp .hero-faq{ background: url(https://authy.com/wp-content/themes/authy/assets/images/heroes/hero-features-secure.webp) 50%/cover no-repeat; }
+.webp .hero-faq{ background: url(../img/hero/hero-faq.webp) 50%/cover no-repeat; }
 
 .webp .spollers-faq__title::after{ background: url(../img/icons/arrow.webp) 0/cover no-repeat; }
