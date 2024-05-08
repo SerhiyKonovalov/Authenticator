@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /404
+Crawl-delay: 5
+Sitemap: https://authenticator.com/sitemap.xml
+Host: authenticator.com
