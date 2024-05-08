@@ -560,12 +560,18 @@ textarea.input {
 }
 
 .get-started__container {
-  max-width: 40.625rem;
   text-align: center;
 }
 
 .get-started__title {
+  max-width: 40.625rem;
+  margin: 0 auto;
   color: #fff;
+}
+
+.get-started__text {
+  max-width: 46.875rem;
+  margin: 0 auto;
 }
 
 .get-started__link {
@@ -823,7 +829,7 @@ textarea.input {
 }
 
 .no-webp .hero{
-  background: url("../img/hero/hero-home.jpeg") 50%/cover no-repeat; }
+  background: url("../img/hero/hero-home.png") 0 20%/cover no-repeat; }
 
 .hero {
   min-height: 100vh;
@@ -843,7 +849,7 @@ textarea.input {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.82);
 }
 
 .hero__container {
@@ -1281,7 +1287,7 @@ textarea.input {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.87);
+  background: rgba(0, 0, 0, 0.83);
 }
 
 .hero-overview__container {
@@ -1430,7 +1436,7 @@ textarea.input {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.83);
 }
 
 .hero-setup__container {
@@ -1467,7 +1473,7 @@ textarea.input {
   overflow: hidden;
   border-radius: 0.9375rem;
   position: relative;
-  padding-bottom: 120%;
+  padding-bottom: 100%;
 }
 
 .setup__image img {
@@ -1579,7 +1585,7 @@ textarea.input {
   overflow: hidden;
   border-radius: 0.9375rem;
   position: relative;
-  padding-bottom: 120%;
+  padding-bottom: 100%;
 }
 
 .secure__image img {
@@ -1661,10 +1667,6 @@ textarea.input {
 
 .faq__title {
   text-align: center;
-}
-
-.faq__title span {
-  color: #29347a;
 }
 
 .faq__text {
@@ -3420,6 +3422,10 @@ textarea.input {
     text-align: center;
   }
 
+  .setup__image {
+    padding-bottom: 60%;
+  }
+
   .secure__content {
     -ms-grid-column-align: center;
         justify-self: center;
@@ -3427,6 +3433,10 @@ textarea.input {
 
   .secure__text {
     text-align: center;
+  }
+
+  .secure__image {
+    padding-bottom: 60%;
   }
 }
 
@@ -3676,6 +3686,14 @@ textarea.input {
   .redirect__list {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
+  }
+
+  .setup__image {
+    padding-bottom: 90%;
+  }
+
+  .secure__image {
+    padding-bottom: 90%;
   }
 }
 
@@ -6285,7 +6303,7 @@ textarea.input {
   }
 }
 
-.webp .hero{ background: url(../img/hero/hero-home.webp) 50%/cover no-repeat; }
+.webp .hero{ background: url(../img/hero/hero-home.webp) 0 20%/cover no-repeat; }
 
 .webp .hero-overview{ background: url(../img/hero/hero-overview.webp) 0 50%/cover no-repeat; }
 
